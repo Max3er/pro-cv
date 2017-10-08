@@ -4,11 +4,7 @@ body,
 ul,
 ol {
   margin: 0;
-  padding: 0;
-  background-color: red !important; }
-
-section {
-  background-color: black !important; }
+  padding: 0; }
 
 /* Fonts */
 p {
@@ -17,6 +13,9 @@ p {
 
 /* Fonts responsive */
 /* Main colors */
+html {
+  background-color: #242423 !important; }
+
 /* Margins */
 
 /*# sourceMappingURL=conf.css.map */

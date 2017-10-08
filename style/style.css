@@ -4,11 +4,7 @@ body,
 ul,
 ol {
   margin: 0;
-  padding: 0;
-  background-color: red !important; }
-
-section {
-  background-color: black !important; }
+  padding: 0; }
 
 /* Fonts */
 p {
@@ -17,7 +13,28 @@ p {
 
 /* Fonts responsive */
 /* Main colors */
+html {
+  background-color: #242423 !important; }
+
 /* Margins */
 /* Main styles */
+.box {
+  background-color: #303030 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+.quickinfo {
+  width: 385px;
+  background-color: yellow;
+  height: 600px; }
+
+.red {
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
