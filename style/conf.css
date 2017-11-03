@@ -6,16 +6,28 @@ ol {
   margin: 0;
   padding: 0; }
 
-/* Fonts */
-p {
-  font-family: Raleway, sans-serif;
-  font-size: 15px; }
-
-/* Fonts responsive */
+/* Margins */
 /* Main colors */
 html {
   background-color: #242423 !important; }
 
-/* Margins */
+/* Fonts */
+p {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  margin-left: 30px !important;
+  color: #DBDBDB;
+  font-weight: 300 !important;
+  line-height: 24px; }
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 28px !important;
+  color: #F5CB5C;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  margin: 30px !important; }
+
+/* Fonts responsive */
 
 /*# sourceMappingURL=conf.css.map */

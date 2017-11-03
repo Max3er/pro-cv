@@ -7,21 +7,12 @@ ol
   margin: 0
   padding: 0
 
-/* Fonts */
+/* Margins */
 
-$font-stack: Raleway, sans-serif
-
-$h1:    28px
-$h2:    20px
-$p:     15px
-
-p
-  font-family: $font-stack
-  font-size: $p
-
-/* Fonts responsive */
-
-
+$margin-large:      30px
+$margin-medium:     25px
+$margin-small:      20px
+$margin-none:       0px
 
 /* Main colors */
 
@@ -35,15 +26,35 @@ $yellow:        #F5CB5C
 
 $paragraph-color:   $lightgrey
 $description-color: $mediumgrey
-$H1-color:          $yellow
-$H2-color:          $mediumgrey
 
 html
   background-color: $dark !important
 
-/* Margins */
+/* Fonts */
 
-$margin-larg:       40px
-$margin-medium:     30px
-$margin-small:      20px
-$margin-none:       0px
+$font-stack: Raleway, sans-serif
+
+$h1:    32px
+$h2:    28px
+$h3:    20px
+$p:     15px
+
+p
+  font-family: $font-stack
+  font-size: $p
+  margin-left: $margin-large !important
+  color: $lightgrey
+  font-weight: 300 !important
+  line-height: 24px
+
+h2
+  font-family: $font-stack
+  font-size: $h2 !important
+  color: $yellow
+  font-weight: 500 !important
+  text-transform: uppercase
+  margin: $margin-large !important
+
+/* Mixins */
+
+/* Fonts responsive */

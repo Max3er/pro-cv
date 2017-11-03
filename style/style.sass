@@ -14,9 +14,85 @@
   float: right
 
 .quickinfo
-  width: 360px
+  width: 320px
   background-color: yellow
   height: 600px
 
 .red
+  background-color: red
+
+/*Columns*/
+
+.title
+  margin-bottom: 0px !important
+
+.column
+  background-color: $darkgrey
+  margin-bottom: $margin-small
+  margin-left: $margin-small !important
+
+/*Items*/
+
+.item
+  display: flex
+  flex-wrap: wrap !important
+  justify-content: flex-end !important
+  margin: $margin-large !important
+
+/*FIXA IHOP DETTA MED MIXINS SEN*/
+
+year
+  float: left
+  width: 150px
+  background-color: $dark
+  padding: $margin-medium
+  font-size: 17px
+  font-family: $font-stack
+  color: $mediumgrey
+  font-weight: 200 !important
+  text-align: center
+
+expand
+  width: 82px !important
+  float: left
+  height: 69px !important
+  line-height: 60px
+  background-color: $dark
+  text-align: center
+  margin-left: $margin-medium !important
+  font-size: 46px !important
+  color: $yellow
+  padding-right: $margin-medium
+  padding-left: $margin-medium
+
+job-title
+  flex-grow: 1
+  height: 69px
+  background-color: $dark
+  padding: $margin-medium
+  font-size: 17px
+  font-family: $font-stack
+  color: $mediumgrey
+  margin-left: $margin-medium !important
+
+job-location
+
+  height: 69px
+  background-color: $dark
+  padding: $margin-medium
+  font-family: $font-stack
+  font-size: 14px
+  line-height: 24px
+  color: $mediumgrey
+  font-weight: 200 !important
+
+expand a
+  color: $yellow !important
+  &:hover
+    color: $mediumgrey !important
+
+.job-description
+
+  width: 200px
+
   background-color: red

@@ -6,17 +6,30 @@ ol {
   margin: 0;
   padding: 0; }
 
-/* Fonts */
-p {
-  font-family: Raleway, sans-serif;
-  font-size: 15px; }
-
-/* Fonts responsive */
+/* Margins */
 /* Main colors */
 html {
   background-color: #242423 !important; }
 
-/* Margins */
+/* Fonts */
+p {
+  font-family: Raleway, sans-serif;
+  font-size: 15px;
+  margin-left: 30px !important;
+  color: #DBDBDB;
+  font-weight: 300 !important;
+  line-height: 24px; }
+
+h2 {
+  font-family: Raleway, sans-serif;
+  font-size: 28px !important;
+  color: #F5CB5C;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  margin: 30px !important; }
+
+/* Mixins */
+/* Fonts responsive */
 /* Main styles */
 .box {
   background-color: #303030 !important;
@@ -30,11 +43,81 @@ html {
   float: right; }
 
 .quickinfo {
-  width: 360px;
+  width: 320px;
   background-color: yellow;
   height: 600px; }
 
 .red {
+  background-color: red; }
+
+/*Columns */
+.title {
+  margin-bottom: 0px !important; }
+
+.column {
+  background-color: #303030;
+  margin-bottom: 20px;
+  margin-left: 20px !important; }
+
+/*Items */
+.item {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: flex-end !important;
+  margin: 30px !important; }
+
+/*FIXA IHOP DETTA MED MIXINS SEN */
+year {
+  float: left;
+  width: 150px;
+  background-color: #242423;
+  padding: 25px;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+  color: #BCBCBC;
+  font-weight: 200 !important;
+  text-align: center; }
+
+expand {
+  width: 82px !important;
+  float: left;
+  height: 69px !important;
+  line-height: 60px;
+  background-color: #242423;
+  text-align: center;
+  margin-left: 25px !important;
+  font-size: 46px !important;
+  color: #F5CB5C;
+  padding-right: 25px;
+  padding-left: 25px; }
+
+job-title {
+  flex-grow: 1;
+  height: 69px;
+  background-color: #242423;
+  padding: 25px;
+  font-size: 17px;
+  font-family: Raleway, sans-serif;
+  color: #BCBCBC;
+  margin-left: 25px !important; }
+
+job-location {
+  height: 69px;
+  background-color: #242423;
+  padding: 25px;
+  font-family: Raleway, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #BCBCBC;
+  font-weight: 200 !important; }
+
+expand a {
+  color: #F5CB5C !important; }
+  expand a:hover {
+    color: #BCBCBC !important; }
+
+.job-description {
+  width: 200px;
   background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
