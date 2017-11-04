@@ -39,7 +39,7 @@
   justify-content: flex-end !important
   margin: $margin-large !important
 
-/*FIXA IHOP DETTA MED MIXINS SEN*/
+/*job items*/
 
 year
   float: left
@@ -76,15 +76,11 @@ job-title
   margin-left: $margin-medium !important
 
 job-location
-
-  height: 69px
-  background-color: $dark
-  padding: $margin-medium
   font-family: $font-stack
   font-size: 14px
-  line-height: 24px
   color: $mediumgrey
   font-weight: 200 !important
+  page-break-after: always
 
 expand a
   color: $yellow !important
@@ -93,6 +89,21 @@ expand a
 
 .job-description
 
-  width: 200px
-
   background-color: red
+
+.job-details
+  display: flex
+  flex-grow: 1
+  margin-left: $margin-medium
+  paddding-left: $margin-medium
+  align-items: center
+  padding-left: $margin-medium
+  padding-right: $margin-medium
+  background-color: $dark
+
+.job-details h3
+  flex-grow: 1
+  font-family: $font-stack
+  font-size: 17px 
+  font-weight: 600 !important
+  

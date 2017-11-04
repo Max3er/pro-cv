@@ -28,6 +28,9 @@ h2 {
   text-transform: uppercase;
   margin: 30px !important; }
 
+h3 {
+  color: lightgrey; }
+
 /* Mixins */
 /* Fonts responsive */
 /* Main styles */
@@ -66,7 +69,7 @@ h2 {
   justify-content: flex-end !important;
   margin: 30px !important; }
 
-/*FIXA IHOP DETTA MED MIXINS SEN */
+/*job items */
 year {
   float: left;
   width: 150px;
@@ -102,14 +105,11 @@ job-title {
   margin-left: 25px !important; }
 
 job-location {
-  height: 69px;
-  background-color: #242423;
-  padding: 25px;
   font-family: Raleway, sans-serif;
   font-size: 14px;
-  line-height: 24px;
   color: #BCBCBC;
-  font-weight: 200 !important; }
+  font-weight: 200 !important;
+  page-break-after: always; }
 
 expand a {
   color: #F5CB5C !important; }
@@ -117,7 +117,22 @@ expand a {
     color: #BCBCBC !important; }
 
 .job-description {
-  width: 200px;
   background-color: red; }
+
+.job-details {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 25px;
+  paddding-left: 25px;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #242423; }
+
+.job-details h3 {
+  flex-grow: 1;
+  font-family: Raleway, sans-serif;
+  font-size: 17px;
+  font-weight: 600 !important; }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,6 +28,10 @@ h2 {
   text-transform: uppercase;
   margin: 30px !important; }
 
+h3 {
+  color: lightgrey; }
+
+/* Mixins */
 /* Fonts responsive */
 
 /*# sourceMappingURL=conf.css.map */
