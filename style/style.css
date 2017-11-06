@@ -19,6 +19,8 @@ p {
   color: #DBDBDB;
   font-weight: 300 !important;
   line-height: 24px; }
+  p:last-child {
+    margin-bottom: 30px !important; }
 
 h2 {
   font-family: Raleway, sans-serif;
@@ -29,7 +31,14 @@ h2 {
   margin: 30px !important; }
 
 h3 {
-  color: lightgrey; }
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  color: #BCBCBC;
+  margin: 30px !important;
+  margin-bottom: 10px !important;
+  margin-top: 0px !important; }
 
 /* Mixins */
 /* Fonts responsive */
@@ -48,7 +57,7 @@ h3 {
 .quickinfo {
   width: 320px;
   background-color: yellow;
-  height: 600px; }
+  height: 100vh; }
 
 .red {
   background-color: red; }
@@ -59,7 +68,7 @@ h3 {
 
 .column {
   background-color: #303030;
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
   margin-left: 20px !important; }
 
 /*Items */
@@ -109,6 +118,7 @@ expand a {
 .job-title-location {
   display: flex;
   justify-content: space-between !important;
+  height: 69px !important;
   /* background-color: green */ }
 
 .job-title-location .job-title {
@@ -125,6 +135,7 @@ expand a {
   padding: 25px; }
 
 .job-description {
+  display: none;
   padding: 25px;
   background-color: #242423; }
 
@@ -133,5 +144,81 @@ expand a {
   font-size: 15px;
   color: #BCBCBC;
   font-family: Raleway, sans-serif; }
+
+/* skillset */
+.skill, .skill-app, .rating, .skill-tags, .edu-content, .edu-time {
+  background-color: #242423;
+  color: #BCBCBC;
+  font-family: Raleway, sans-serif; }
+
+.skill-app {
+  color: #DBDBDB;
+  display: flex;
+  justify-content: space-between !important;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+.rating {
+  font-size: 11px;
+  align-items: center !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: bold !important; }
+  .rating.high {
+    color: #38A659; }
+  .rating.medium {
+    color: #F5CB5C !important; }
+
+.skill-app-row {
+  margin-bottom: 30px; }
+
+.skill-tags-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  margin-right: 30px; }
+
+.skill-tags {
+  font-size: 15px !important;
+  padding: 10px;
+  margin-right: 10px; }
+  .skill-tags:last-child {
+    margin-top: 10px;
+    margin-bottom: 30px !important; }
+
+/* Education */
+.education-container {
+  display: flex; }
+
+.edu-content {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between !important;
+  font-size: 17px !important;
+  padding: 25px; }
+
+.edu {
+  color: #DBDBDB !important; }
+
+.edu-location {
+  color: #BCBCBC !important; }
+
+.edu-time {
+  padding: 25px;
+  margin-left: 30px;
+  margin-right: 20px !important; }
+
+/* Lite testskit */
+.testdiv {
+  margin-left: 0px !important;
+  margin-right: 0px !important; }
+
+.testdiv-color {
+  background-color: green; }
 
 /*# sourceMappingURL=style.css.map */

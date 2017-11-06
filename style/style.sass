@@ -16,7 +16,7 @@
 .quickinfo
   width: 320px
   background-color: yellow
-  height: 600px
+  height: 100vh
 
 .red
   background-color: red
@@ -28,7 +28,7 @@
 
 .column
   background-color: $darkgrey
-  margin-bottom: $margin-small
+  margin-bottom: $margin-small !important
   margin-left: $margin-small !important
 
 /*Items*/
@@ -80,6 +80,7 @@ expand a
 .job-title-location
   display: flex
   justify-content: space-between !important
+  height: 69px !important
   /* background-color: green */
 
 .job-title-location .job-title
@@ -96,6 +97,7 @@ expand a
   padding: $margin-medium
 
 .job-description
+  display: none
   padding: $margin-medium
   background-color: $dark
 
@@ -104,3 +106,87 @@ expand a
   font-size: $p
   color: $mediumgrey
   font-family: $font-stack
+
+/* skillset */
+
+.skill
+  background-color: $dark
+  color: $mediumgrey
+  font-family: $font-stack
+  
+.skill-app
+  @extend .skill
+  color: $lightgrey
+  display: flex
+  justify-content: space-between !important
+  font-size: $p
+  margin-left: $margin-large
+  margin-right: $margin-large
+  margin-bottom: $margin-mini
+  padding: $margin-mini
+
+.rating
+  @extend .skill
+  font-size: 11px
+  align-items: center !important
+  display: flex !important
+  justify-content: center !important
+  padding-left: 7px
+  padding-right: 7px
+  font-weight: bold !important
+  &.high
+    color: $green
+  &.medium
+    color: $yellow !important
+
+.skill-app-row
+  margin-bottom: $margin-large
+
+.skill-tags-row
+  display: flex
+  flex-wrap: wrap
+  margin-left: $margin-large
+  margin-right: $margin-large
+
+.skill-tags
+  @extend .skill
+  font-size: $p !important
+  padding: $margin-mini
+  margin-right: $margin-mini
+  &:last-child
+    margin-top: $margin-mini
+    margin-bottom: $margin-large !important
+
+/* Education */
+
+.education-container
+  display: flex
+
+.edu-content
+  @extend .skill
+  display: flex
+  flex-grow: 1
+  justify-content: space-between !important
+  font-size: 17px !important
+  padding: $margin-medium
+
+.edu
+  color: $lightgrey !important
+
+.edu-location
+  color: $mediumgrey !important
+
+.edu-time
+  @extend .skill
+  padding: $margin-medium
+  margin-left: $margin-large
+  margin-right: $margin-small !important
+
+/* Lite testskit */
+
+.testdiv
+  margin-left: 0px !important
+  margin-right: 0px !important
+
+.testdiv-color
+  background-color: green
