@@ -73,6 +73,7 @@ h3 {
 year {
   float: left;
   width: 150px;
+  height: 69px;
   background-color: #242423;
   padding: 25px;
   font-size: 17px;
@@ -94,45 +95,43 @@ expand {
   padding-right: 25px;
   padding-left: 25px; }
 
-job-title {
-  flex-grow: 1;
-  height: 69px;
-  background-color: #242423;
-  padding: 25px;
-  font-size: 17px;
-  font-family: Raleway, sans-serif;
-  color: #BCBCBC;
-  margin-left: 25px !important; }
-
-job-location {
-  font-family: Raleway, sans-serif;
-  font-size: 14px;
-  color: #BCBCBC;
-  font-weight: 200 !important;
-  page-break-after: always; }
-
 expand a {
   color: #F5CB5C !important; }
   expand a:hover {
     color: #BCBCBC !important; }
 
-.job-description {
-  background-color: red; }
-
 .job-details {
-  display: flex;
   flex-grow: 1;
   margin-left: 25px;
-  paddding-left: 25px;
   align-items: center;
-  padding-left: 25px;
-  padding-right: 25px;
   background-color: #242423; }
 
-.job-details h3 {
-  flex-grow: 1;
-  font-family: Raleway, sans-serif;
+.job-title-location {
+  display: flex;
+  justify-content: space-between !important;
+  /* background-color: green */ }
+
+.job-title-location .job-title {
   font-size: 17px;
-  font-weight: 600 !important; }
+  color: #DBDBDB;
+  font-family: Raleway, sans-serif;
+  padding: 25px; }
+
+.job-title-location .job-location {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: Raleway, sans-serif;
+  color: #BCBCBC;
+  padding: 25px; }
+
+.job-description {
+  padding: 25px;
+  background-color: #242423; }
+
+.job-description p {
+  margin-left: 0px !important;
+  font-size: 15px;
+  color: #BCBCBC;
+  font-family: Raleway, sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

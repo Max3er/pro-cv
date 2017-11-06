@@ -44,6 +44,7 @@
 year
   float: left
   width: 150px
+  height: 69px
   background-color: $dark
   padding: $margin-medium
   font-size: 17px
@@ -65,45 +66,41 @@ expand
   padding-right: $margin-medium
   padding-left: $margin-medium
 
-job-title
-  flex-grow: 1
-  height: 69px
-  background-color: $dark
-  padding: $margin-medium
-  font-size: 17px
-  font-family: $font-stack
-  color: $mediumgrey
-  margin-left: $margin-medium !important
-
-job-location
-  font-family: $font-stack
-  font-size: 14px
-  color: $mediumgrey
-  font-weight: 200 !important
-  page-break-after: always
-
 expand a
   color: $yellow !important
   &:hover
     color: $mediumgrey !important
 
-.job-description
-
-  background-color: red
-
 .job-details
-  display: flex
   flex-grow: 1
   margin-left: $margin-medium
-  paddding-left: $margin-medium
   align-items: center
-  padding-left: $margin-medium
-  padding-right: $margin-medium
   background-color: $dark
 
-.job-details h3
-  flex-grow: 1
+.job-title-location
+  display: flex
+  justify-content: space-between !important
+  /* background-color: green */
+
+.job-title-location .job-title
+  font-size: 17px
+  color: $lightgrey
   font-family: $font-stack
-  font-size: 17px 
-  font-weight: 600 !important
-  
+  padding: $margin-medium
+
+.job-title-location .job-location
+  font-size: 17px
+  font-weight: 400
+  font-family: $font-stack
+  color: $mediumgrey
+  padding: $margin-medium
+
+.job-description
+  padding: $margin-medium
+  background-color: $dark
+
+.job-description p
+  margin-left: 0px !important
+  font-size: $p
+  color: $mediumgrey
+  font-family: $font-stack
