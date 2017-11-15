@@ -65,11 +65,15 @@ expand
   color: $yellow
   padding-right: $margin-medium
   padding-left: $margin-medium
+  transition: background-color 0.4s ease
+  &:hover
+    background-color: $yellow
+    color: $dark !important
 
 expand a
   color: $yellow !important
   &:hover
-    color: $mediumgrey !important
+    color: $dark !important
 
 .job-details
   flex-grow: 1
@@ -183,6 +187,11 @@ expand a
   padding: $margin-medium
   margin-left: $margin-large
   margin-right: $margin-small !important
+
+/* Portfolio */
+
+.portfolio-menu
+  flex: 1 !important
 
 /* Lite testskit */
 

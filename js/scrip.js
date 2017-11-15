@@ -10,11 +10,18 @@ $("#expand").click(function(){
     };
 });
 
-// Expand div on click
+// Expand div on click - work experience
 
 $("#expand").click(function () {
         $expand = $(this);
             $content = $(".job-description");
             $content.slideToggle(500, function () {
         });
+});
+
+// portfolio menu
+
+$('ul li a').click(function() {
+    $('ul li').removeClass('is-active');
+    $(this).closest('li').addClass('is-active');
 });

@@ -42,15 +42,30 @@ h3 {
 
 /* TABS */
 .tabs a {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+  color: #F5CB5C !important;
   border: none !important;
-  background-color: red;
-  padding: 25px;
-  height: auto; }
+  background-color: #242423;
+  padding: 10px !important;
+  height: auto;
+  transition: background-color 0.4s ease; }
+  .tabs a:hover {
+    background-color: #F5CB5C !important;
+    color: #242423 !important; }
+  .tabs a:first-child {
+    border-radius: 0 0 0 0 !important; }
+  .tabs a:last-child {
+    border-radius: 0 0 0 0 !important; }
 
-li .is-active {
-  background-color: yellow !important; }
+.is-active a {
+  color: #242423 !important;
+  background-color: #F5CB5C !important; }
 
 /* Mixins */
+.wrap {
+  flex-wrap: wrap; }
+
 /* Fonts responsive */
 /* Main styles */
 .box {
@@ -112,12 +127,17 @@ expand {
   font-size: 46px !important;
   color: #F5CB5C;
   padding-right: 25px;
-  padding-left: 25px; }
+  padding-left: 25px;
+  transition: background-color 0.4s ease; }
+  expand:hover {
+    background-color: #F5CB5C;
+    color: #242423 !important; }
 
 expand a {
+  width: 100% !important;
   color: #F5CB5C !important; }
   expand a:hover {
-    color: #BCBCBC !important; }
+    color: #242423 !important; }
 
 .job-details {
   flex-grow: 1;
@@ -224,6 +244,10 @@ expand a {
   padding: 25px;
   margin-left: 30px;
   margin-right: 20px !important; }
+
+/* Portfolio */
+.portfolio-menu {
+  flex: 1 !important; }
 
 /* Lite testskit */
 .testdiv {

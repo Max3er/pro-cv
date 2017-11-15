@@ -72,15 +72,29 @@ h3
 /* TABS */
 
 .tabs a
+  font-family: $font-stack
+  font-weight: 600
+  color: $yellow !important
   border: none !important
-  background-color: red
-  padding: $margin-medium
+  background-color: $dark
+  padding: $margin-mini !important
   height: auto
+  transition: background-color 0.4s ease
+  &:hover
+    background-color: $yellow !important
+    color: $dark !important
+  &:first-child
+    border-radius: 0 0 0 0 !important
+  &:last-child
+    border-radius: 0 0 0 0 !important
 
-li
-  & .is-active
-    background-color: yellow !important
+.is-active a
+  color: $dark !important
+  background-color: $yellow !important
 
 /* Mixins */
+
+.wrap
+  flex-wrap: wrap
 
 /* Fonts responsive */
