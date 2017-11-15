@@ -40,6 +40,16 @@ h3 {
   margin-bottom: 10px !important;
   margin-top: 0px !important; }
 
+/* TABS */
+.tabs a {
+  border: none !important;
+  background-color: red;
+  padding: 25px;
+  height: auto; }
+
+li .is-active {
+  background-color: yellow !important; }
+
 /* Mixins */
 /* Fonts responsive */
 /* Main styles */
@@ -193,7 +203,9 @@ expand a {
 
 /* Education */
 .education-container {
-  display: flex; }
+  display: flex;
+  margin-bottom: 25px !important;
+  margin-right: 25px !important; }
 
 .edu-content {
   display: flex;
@@ -219,6 +231,6 @@ expand a {
   margin-right: 0px !important; }
 
 .testdiv-color {
-  background-color: green; }
+  background-color: #242423; }
 
 /*# sourceMappingURL=style.css.map */
