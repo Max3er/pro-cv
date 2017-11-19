@@ -94,7 +94,7 @@ h3 {
 .column {
   background-color: #303030;
   margin-bottom: 20px !important;
-  margin-left: 20px !important; }
+  margin-left: 20px; }
 
 /*Items */
 .item {
@@ -134,7 +134,6 @@ expand {
     color: #242423 !important; }
 
 expand a {
-  width: 100% !important;
   color: #F5CB5C !important; }
   expand a:hover {
     color: #242423 !important; }
@@ -225,12 +224,12 @@ expand a {
 .education-container {
   display: flex;
   margin-bottom: 25px !important;
-  margin-right: 25px !important; }
+  margin-right: 25px; }
 
 .edu-content {
   display: flex;
   flex-grow: 1;
-  justify-content: space-between !important;
+  justify-content: space-between;
   font-size: 17px !important;
   padding: 25px; }
 
@@ -243,7 +242,7 @@ expand a {
 .edu-time {
   padding: 25px;
   margin-left: 30px;
-  margin-right: 20px !important; }
+  margin-right: 20px; }
 
 /* Portfolio */
 .portfolio-menu {
