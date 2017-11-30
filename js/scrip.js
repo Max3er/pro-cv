@@ -8,15 +8,17 @@ $("#expand").click(function(){
     } else {
         $(this).text("+");
     };
+    
 });
 
 // Expand div on click - work experience
 
 $("#expand").click(function () {
-        $expand = $(this);
-            $content = $(".job-description");
-            $content.slideToggle(500, function () {
-        });
+   // $expand = $(this);
+   // $content = $(".job-description");
+   // $content.slideToggle(500, function () {
+    $(this).closest(".job-description").slideToggle(500, function () {
+    });
 });
 
 // portfolio menu

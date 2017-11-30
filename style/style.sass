@@ -54,16 +54,20 @@ year
   text-align: center
 
 expand
-  width: 82px !important
-  float: left
-  height: 69px !important
+  //width: 82px !important
+  //float: left
+  width: 82px
+  height: 69px
   line-height: 60px
   background-color: $dark
   text-align: center
-  margin-left: $margin-medium !important
-  font-size: 46px !important
+  margin-left: $margin-medium
+  margin-right: $margin-medium
+  font-size: 46px
   color: $yellow
-  padding-right: $margin-medium
+  //border-right: $margin-medium solid
+  //border-right-color: $darkgrey 
+  padding-right: $margin-medium !important
   padding-left: $margin-medium
   transition: background-color 0.4s ease
   &:hover
@@ -75,23 +79,28 @@ expand a
   &:hover
     color: $dark !important
 
-.job-details
+/*
+  .job-details
+  display: flex
   flex-grow: 1
   margin-left: $margin-medium
   align-items: center
-  background-color: $dark
+  background-color: $dark */
 
 .job-title-location
   display: flex
-  justify-content: space-between !important
-  height: 69px !important
-  /* background-color: green */
+  flex-grow: 1
+  justify-content: flex-end
+  height: 69px
+  background-color: $dark
 
 .job-title-location .job-title
   font-size: 17px
   color: $lightgrey
   font-family: $font-stack
   padding: $margin-medium
+  justify-content: flex-start
+  flex: 1
 
 .job-title-location .job-location
   font-size: 17px
@@ -102,6 +111,8 @@ expand a
 
 .job-description
   display: none
+  flex: 1
+  margin-left: 282px
   padding: $margin-medium
   background-color: $dark
 
@@ -110,6 +121,7 @@ expand a
   font-size: $p
   color: $mediumgrey
   font-family: $font-stack
+  margin-bottom: 0px !important
 
 /* skillset */
 
@@ -159,7 +171,7 @@ expand a
   margin-right: $margin-mini
   &:last-child
     margin-top: $margin-mini
-    margin-bottom: $margin-large !important
+    margin-bottom: $margin-large
 
 /* Education */
 
