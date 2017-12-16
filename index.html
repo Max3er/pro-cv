@@ -36,7 +36,7 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
 
         <!-- Auto refresh | Development mode -->
-        <script type="text/javascript" src="http://livejs.com/live.js"></script>
+        <!--<script type="text/javascript" src="http://livejs.com/live.js"></script>-->
 
     </head>
 
@@ -47,6 +47,13 @@
             <div class="container">
 
                 <div class="main-content">
+
+                    <div class="columns">
+                        <div class="column is-one-quarter testdiv-color"><p>skrivessssr</p></div>
+                        <div class="column testdiv">
+                            Srkiver
+                        </div>
+                    </div>
 
                     <div class="columns">
                         
@@ -87,7 +94,7 @@
                                     
                                     <year>2013-current</year>
 
-                                    <expand><a href="#/" id="expand">+</a></expand>
+                                    <div class="expand"><a href="#/" id="expand">+</a></div>
                                     
                                     <div class="job-title-location">
                                 
@@ -96,7 +103,7 @@
 
                                     </div>
 
-                                    <div class="job-description">
+                                    <div class="job-description" id="job-description">
                                         
                                         <p>Skriver något skit här och ser hur det ser ut?</p>
 
@@ -112,7 +119,7 @@
                                     
                                     <year>2013-current</year>
 
-                                    <expand><a href="#/" id="expand">+</a></expand>
+                                    <div class="expand"><a href="#/" id="expand">+</a></div>
                                     
                                     <div class="job-title-location">
                                 
@@ -263,10 +270,20 @@
                         <h2>Portfolio</h2>
 
                         <p>Ett utkast på vad jag har gjort.</p>
-                        <!-- BULMA KOD -->
 
-                        <div class="item item-responsive">
+                        <div class="portfolio-container">
+                            <div class="portfolio-menu">
+                                <a class="port-item is-active" href="#/">1</a>
+                                <a class="port-item" href="#/">2</a>
+                                <a class="port-item" href="#/">3</a>
+                            </div>
+                            <h3>Bofakta</h3>
+                            <div class="portfolio-item">
+                                <p>Här inne gör jag ett bildspel man kan scrolla med</p>
+                            </div>
+                        </div>
 
+                        <!--<div class="item item-responsive">       
                             <div class="tabs is-toggle is-fullwidth portfolio-menu">
                                 <ul>
                                 <li class="is-active">
@@ -286,7 +303,7 @@
                                 </li>
                                 </ul>
                             </div>
-                         </div>
+                         </div>-->
                          
                         <!-- BULMA KOD -->
                     </div>
@@ -299,9 +316,9 @@
 
         </div>
 
-        <!-- JQuery -->
+        <!-- JQuery and plugins -->
         <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script>
-        <script src="js/scrip.js"></script>  
+        <script src="js/scrip.js"></script>
 
     </body>
 

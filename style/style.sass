@@ -53,9 +53,7 @@ year
   font-weight: 200 !important
   text-align: center
 
-expand
-  //width: 82px !important
-  //float: left
+.expand
   width: 82px
   height: 69px
   line-height: 60px
@@ -63,21 +61,24 @@ expand
   text-align: center
   margin-left: $margin-medium
   margin-right: $margin-medium
-  font-size: 46px
   color: $yellow
-  //border-right: $margin-medium solid
-  //border-right-color: $darkgrey 
+  font-size: 46px
   padding-right: $margin-medium !important
   padding-left: $margin-medium
   transition: background-color 0.4s ease
-  &:hover
-    background-color: $yellow
-    color: $dark !important
 
-expand a
+.expand a
+  color: $yellow !important
+
+//.expand-hover
+  &:hover
+    background-color: $green
+    color: $dark !important */
+
+//.expand-hover a
   color: $yellow !important
   &:hover
-    color: $dark !important
+    color: $dark !important */
 
 /*
   .job-details
@@ -200,10 +201,35 @@ expand a
   margin-left: $margin-large
   margin-right: $margin-small
 
-/* Portfolio */
+/* Portfolio - Jslide*/
+
+.portfolio-container
+  margin-left: $margin-large
+  margin-right: $margin-small
+
+.portfolio-container h3
+  margin-left: 0px !important
+
+.portfolio-item
+  @extend .skill
+  padding: $margin-medium
 
 .portfolio-menu
-  flex: 1 !important
+  display: flex
+  margin-bottom: $margin-large
+
+.portfolio-menu a
+  display: block
+  padding: $margin-mini $margin-small $margin-mini $margin-small
+  background-color: $dark
+  color: $yellow
+  margin-left: $margin-mini
+  margin-top: $margin-medium
+  &:first-child
+    margin-left: 0px
+
+/*.portfolio-menu
+  flex: 1 !important*/
 
 /* Lite testskit */
 

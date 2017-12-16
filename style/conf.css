@@ -4,12 +4,14 @@ body,
 ul,
 ol {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 /* Margins */
 /* Main colors */
 html {
-  background-color: #242423 !important; }
+  background-color: #242423 !important;
+}
 
 /* Fonts */
 p {
@@ -18,9 +20,12 @@ p {
   margin-left: 30px !important;
   color: #DBDBDB;
   font-weight: 300 !important;
-  line-height: 24px; }
-  p:last-child {
-    margin-bottom: 30px !important; }
+  line-height: 24px;
+}
+
+p:last-child {
+  margin-bottom: 30px !important;
+}
 
 h2 {
   font-family: Raleway, sans-serif;
@@ -28,7 +33,8 @@ h2 {
   color: #F5CB5C;
   font-weight: 500 !important;
   text-transform: uppercase;
-  margin: 30px !important; }
+  margin: 30px !important;
+}
 
 h3 {
   font-family: Raleway, sans-serif;
@@ -38,7 +44,8 @@ h3 {
   color: #BCBCBC;
   margin: 30px !important;
   margin-bottom: 10px !important;
-  margin-top: 0px !important; }
+  margin-top: 0px !important;
+}
 
 /* TABS */
 .tabs a {
@@ -49,23 +56,33 @@ h3 {
   background-color: #242423;
   padding: 10px !important;
   height: auto;
-  transition: background-color 0.4s ease; }
-  .tabs a:hover {
-    background-color: #F5CB5C !important;
-    color: #242423 !important; }
-  .tabs a:first-child {
-    border-radius: 0 0 0 0 !important; }
-  .tabs a:last-child {
-    border-radius: 0 0 0 0 !important; }
+  transition: background-color 0.4s ease;
+}
 
-.is-active a {
+.tabs a:hover {
+  background-color: #F5CB5C !important;
   color: #242423 !important;
-  background-color: #F5CB5C !important; }
+}
+
+.tabs a:first-child {
+  border-radius: 0 0 0 0 !important;
+}
+
+.tabs a:last-child {
+  border-radius: 0 0 0 0 !important;
+}
+
+.is-active {
+  color: #242423 !important;
+  background-color: #F5CB5C !important;
+}
 
 /* Mixins */
 .wrap {
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+}
 
 /* Fonts responsive */
+ 
 
-/*# sourceMappingURL=conf.css.map */
+ /*# sourceMappingURL= conf.css.map */

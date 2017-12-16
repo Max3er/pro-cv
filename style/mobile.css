@@ -2,40 +2,41 @@
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   p {
-    margin-right: 25px !important; }
-
+    margin-right: 25px !important;
+  }
   .column {
-    margin-left: 0px !important; }
-
+    margin-left: 0px !important;
+  }
   .item-responsive {
     margin-left: 0px !important;
-    margin-right: 0px !important; }
-
+    margin-right: 0px !important;
+  }
   .education-container {
-    display: block !important; }
-
+    display: block !important;
+  }
   .edu-content {
     display: block !important;
-    margin-left: 30px !important; }
-
+    margin-left: 30px !important;
+  }
   .edu-time {
     margin-right: 0px !important;
     margin-bottom: 1px;
     padding-top: 10px !important;
-    padding-bottom: 10px !important; }
-
+    padding-bottom: 10px !important;
+  }
   .edu-location {
     padding-top: 10px;
-    font-size: 0.75em !important; }
-
+    font-size: 0.75em !important;
+  }
   .skill-tags-row {
-    margin-bottom: 15px; }
-
+    margin-bottom: 15px;
+  }
   .skill-tags {
-    margin-bottom: 10px !important; }
-    .skill-tags:last-child {
-      margin-top: 0px !important; }
-
+    margin-bottom: 10px !important;
+  }
+  .skill-tags:last-child {
+    margin-top: 0px !important;
+  }
   year {
     float: none !important;
     min-width: 100%;
@@ -44,9 +45,9 @@
     font-size: 1em !important;
     text-align: left !important;
     padding: 10px 25px 10px 25px !important;
-    height: auto !important; }
-
-  expand {
+    height: auto !important;
+  }
+  .expand {
     flex-grow: 1 !important;
     min-width: 100%;
     margin-top: 1px !important;
@@ -59,12 +60,12 @@
     -moz-box-ordinal-group: 2;
     -ms-flex-order: 2;
     -webkit-order: 2;
-    order: 2; }
-
+    order: 2;
+  }
   .job-details {
     padding: 25px !important;
-    margin-left: 0px !important; }
-
+    margin-left: 0px !important;
+  }
   .job-title-location {
     flex-wrap: wrap;
     height: auto !important;
@@ -73,27 +74,30 @@
     -moz-box-ordinal-group: 1;
     -ms-flex-order: 1;
     -webkit-order: 1;
-    order: 1; }
-
+    order: 1;
+  }
   .job-title {
     flex-grow: 1;
     min-width: 100%;
-    padding: 0px !important; }
-
+    padding: 0px !important;
+  }
   .job-location {
     flex-grow: 1;
     min-width: 100%;
     padding: 0px !important;
     font-size: 0.75em !important;
     height: auto !important;
-    padding-top: 10px !important; }
-
+    padding-top: 10px !important;
+  }
   .job-description {
     min-width: 100% !important;
     -webkit-box-ordinal-group: 3;
     -moz-box-ordinal-group: 3;
     -ms-flex-order: 3;
     -webkit-order: 3;
-    order: 3; } }
+    order: 3;
+  }
+}
+ 
 
-/*# sourceMappingURL=mobile.css.map */
+ /*# sourceMappingURL= mobile.css.map */
